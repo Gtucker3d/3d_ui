@@ -15,6 +15,7 @@ func _input(event):
 		print(event.position)
 		click_event=event
 		casting_ray=true
+		return
 	if event is InputEventMouseMotion:
 		click_event=event
 		casting_ray=true

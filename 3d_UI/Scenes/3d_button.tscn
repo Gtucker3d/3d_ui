@@ -1,5 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://b5km1y07jg728"]
+[gd_scene load_steps=10 format=3 uid="uid://b5km1y07jg728"]
 
+[ext_resource type="Script" path="res://scripts/3d_button.gd" id="1_3bnfp"]
 [ext_resource type="PackedScene" uid="uid://da1h70p1lukj7" path="res://game_objects/camera_caster.tscn" id="1_ddxor"]
 [ext_resource type="PackedScene" uid="uid://cqxls6ihvvx7m" path="res://game_objects/button.tscn" id="2_fkv20"]
 [ext_resource type="Script" path="res://scripts/test.gd" id="3_an86y"]
@@ -34,6 +35,7 @@ material = SubResource("StandardMaterial3D_klbdu")
 size = Vector3(1, 1, 0.0365484)
 
 [node name="Node3D" type="Node3D"]
+script = ExtResource("1_3bnfp")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
